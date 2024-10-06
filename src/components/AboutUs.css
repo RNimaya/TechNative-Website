@@ -1,0 +1,34 @@
+.aboutUs {
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.aboutUs img {
+    max-width: 45%; 
+    height: auto;
+}
+
+.aboutUs div {
+    max-width: 50%; 
+    text-align: left; 
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: rgb(33, 33, 72);
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
