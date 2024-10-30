@@ -2,6 +2,9 @@ import React from 'react';
 import '../styles.css'; 
 import logo from '../assets/LOGO.jpeg';
 import { Link } from 'react-router-dom';
+import Home from '../components/Home';
+import AboutUs from '../components/AboutUs';
+import ServicesPage from '../components/ServicesPage';
 
 
 const NavBar = () => {
@@ -13,11 +16,11 @@ const NavBar = () => {
             </div>
             <nav>
                 <ul>
-                    <li><Link to='/home'><a href="#home">Home</a></Link></li>
-                    <li><Link to='/aboutUs'><a href="#aboytUs">AboutUs</a></Link></li>
-                    <li><Link to='/services'><a href="#home">Services</a></Link></li>
-                    <li><Link to='/portfolio'><a href="#aboytUs">Portfolio</a></Link></li>
-                    <li><Link to='/contact'><a href="#home">Contact</a></Link></li>
+                    <li><a href=".Home">Home</a></li>
+                    <li><a href="#AboutUs">AboutUs</a></li>                
+                    <li><a href=".ServicesPage">Services</a></li>
+                    <li><Link to='/portfolio'><a href="#jj">Portfolio</a></Link></li>
+                    <li><Link to='/contact'><a href="#hme">Contact</a></Link></li>
                 </ul>
             </nav>
 

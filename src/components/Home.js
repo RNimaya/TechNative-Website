@@ -13,7 +13,7 @@ function Home(){
           <p>Providing cutting-edge software, IT consulting, and cloud solutions to help your business grow.</p>
 
           <button className="cta-button cta-button1">
-            <a href="#learnMore">Learn More</a>
+            <a href="#AboutUs">Learn More</a>
           </button>
           <button className="cta-button cta-button2">
             <a href="#getStarted">Get Started</a>

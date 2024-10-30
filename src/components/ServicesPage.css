@@ -1,0 +1,136 @@
+.ServicesPage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .ServicesPage h1 {
+    font-family: Arial, sans-serif;
+    color: rgb(33, 33, 72);
+    font-size: 3em;
+    margin-bottom: 30px; 
+  }
+  
+  .ServicesContainer {
+    display: flex;
+    justify-content: space-around; 
+    align-items: stretch; 
+  }
+  
+  .Service {
+    display: flex;
+    flex-direction: column;
+    width: 20%; 
+    margin: 1%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+  }
+  
+  .Services {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
+    
+  }
+  
+  .container {
+    padding: 10px;
+    flex-grow: 1;
+    background-color: rgb(10, 10, 31);
+    overflow: visible;
+    
+  }
+  
+  p {
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+  
+  .Service-container {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .ServicesContainer {
+      flex-direction: column; 
+    }
+  
+    .Service {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  /* Modal Styles */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000; /* Ensure it appears on top of the content */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark background */
+}
+
+.modal-content {
+  background-color: #d0def1;
+  padding: 1px;
+  border-radius: 0px;
+  width: 50%; /* Adjust width as needed */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.3s ease;
+}
+
+/* Modal header styling */
+.modal-container {
+  background-color: #d0def1;
+  color: rgb(20, 15, 85);
+  padding: 50px;
+  border-radius: 0px 0px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-body p{
+  color: #181537;
+
+}
+
+
+.modal-container h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Close Button */
+.button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.button:hover {
+  color: #f1f1f1;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-10%);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
